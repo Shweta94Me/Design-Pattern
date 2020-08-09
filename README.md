@@ -14,8 +14,12 @@ Behavioual Pattern: Takes care of effective communication and the assignment of 
 
 # Creational Patterns
 
-1. Abstract Fractory 
-Let you produce families of related objects without specifying their concrete classes
+1. Abstract Factory 
+Let you produce families of related objects without specifying their concrete classes.
+Abstract Factory pattern suggests to explicitly declare interfaces for each distinct product of product family.
+Then all varients of products follows those interfaces. 
+The next move is to delcare the Abstarct Factory - an interface with  alist of creation method for all product that are the part of product family. These methods must return abstract product types represented by the interfaces we extracted previously. 
+
 
 
 OO Principles
